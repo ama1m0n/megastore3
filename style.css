@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+.input {
+    text-align: center;
+    width: 384px;
+    height: 262px;
+    padding: 32px 128px 48px;
+    background-color: #fff;
+    margin: 244px auto;
+    border-radius: 4px;
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    left: 600px;
+    top: 20px;
+}
+
+.txt {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.subtxt {
+    font-family: 'Sora', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+}
+
+.number {
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+    border-radius: 12px;
+    border: 0.5px solid #DADADA;
+    margin-bottom: -10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.error-txt {
+    color: red;
+    text-align: left;
+    padding-left: 58px;
+}
+
+.input__btn {
+    background: #232529;
+    color: #fff;
+    width: 352px;
+    height: 48px;
+    border-radius: 4px;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+.input__btn a {
+    text-decoration: none;
+    color: #fff;
+}
